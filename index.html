@@ -3,36 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba6</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Página con Video e Imagen</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
 
-    <video autoplay muted loop id="background-video1">
-       
-        <source src="payaso.mp4" type="video/mp4">
-        
-    </video>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Nosifer&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
-<br>
 
-    <div id="game">
-        <h1>¡Juega o muere!</h1>
-        
-        <h2>Prueba 6</h2>
-        <p>Alcanza el siguiente destino...</p> 
-
-        <button><a href="destino.html">Siguiente destino</a></button>
-       
-    </div>
+    <video autoplay muted loop id="fondo">
+        <source src="payaso.mp4" type="video/mp4">
+    </video>
 
     <audio src="risa.mp3" autoplay loop> 
-    </audio>
+    </audio
+   
+    <div class="container">
+        <div class="content">
+            <h1>JUEGA O MUERE</h1>
+            <p>Jugaré, no abandonaré</p>
+            <button id="playVideoButton">CONTINUAR</button>
+        </div>
 
-    <script src="script.js"></script>
+        <div id="videoContainer" class="hidden">
+            <video id="video" width="640" height="360" controls>
+                <source src="video/halloween.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+  
+        <div id="imageButtonContainer" class="hidden">
+            <button id="showImageButton">PISTA</button>
+        </div>
+
+        <div id="imageContainer" class="hidden">
+            <img id="image" src="img/guarderia.jpg" alt="Imagen">
+            <a href="https://maps.app.goo.gl/dtzM6LuNfMkt79mW9">
+            <button id="ubicacion">UBICACIÓN</button></a>
+        </div>
+    </div>
+
+    <script src="js/script.js">
+    
+    </script>
 </body>
 </html>
-
-
-    
