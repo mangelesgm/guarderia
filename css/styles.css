@@ -147,7 +147,7 @@ a{
     #content {
         padding: 15px;
         max-width: 100%; /* Ajusta el ancho para móviles */
-        margin-top: 10px; /* Ajusta la posición en móviles */
+        margin-top: 60px; /* Ajusta la posición en móviles */
         transform: translateY(-40%); /* Para que se vea más centrado en móviles */
     }
 
