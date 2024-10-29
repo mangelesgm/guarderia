@@ -48,14 +48,13 @@ body {
 }
 
 h1 {font-size: 3em;
-    color: #ff4500; /* Naranja brillante */
+    color: #e08b2a; /* Naranja brillante */
     text-shadow: 2px 2px 10px #000; /* Sombra negra para resaltar */
     letter-spacing: 3px;
     margin-bottom: 10px;
     animation: blink 2s infinite;
 
     font-family: "Nosifer", sans-serif;
-
     font-style: normal;
 
     }
