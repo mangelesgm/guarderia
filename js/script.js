@@ -6,15 +6,13 @@ const imageButtonContainer = document.getElementById('imageButtonContainer');
 const showImageButton = document.getElementById('showImageButton');
 const imageContainer = document.getElementById('imageContainer');
 const content = document.querySelector('.content');
-const audio = document.getElementById("background-audio");
-const closeImageButton = document.getElementById('closeImageButton');
+const audio = document.getElementById("background-audio"); // Asegúrate de que esté bien seleccionado
 
 // Al hacer clic en el botón para reproducir el video
 playVideoButton.addEventListener('click', () => {
     content.classList.add('hidden');  // Ocultar el título y el párrafo
     videoContainer.classList.remove('hidden');  // Mostrar el video en pantalla completa
     video.play();  // Reproducir el video
-    audio.currentTime = 0;  // Reiniciar el audio
     audio.play();  // Reproducir el audio
 });
 
@@ -23,6 +21,7 @@ video.addEventListener('ended', () => {
     videoContainer.classList.add('hidden');  // Ocultar el video cuando termina
     imageButtonContainer.classList.remove('hidden');  // Mostrar el botón para ver la imagen
 });
+
 
 // Al hacer clic en el botón para mostrar la imagen
 showImageButton.addEventListener('click', () => {
