@@ -144,10 +144,10 @@ a{
 }
 
 @media (max-width: 768px) {
-    #content {
+    .content {
         padding: 15px;
         max-width: 100%; /* Ajusta el ancho para móviles */
-        margin-top: 65px; /* Ajusta la posición en móviles */
+        margin-top: 580px; /* Ajusta la posición en móviles */
         transform: translateY(-40%); /* Para que se vea más centrado en móviles */
     }
 
